@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    margin-top: 100px;
+    background-color: #112;
+    background-color: #0c2d41;
+    font-family: Roboto, 'helvetica neue', Helvetica, Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.ambi-light-button{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    text-transform: uppercase; 
+    border-radius: 50px;
+    z-index: 1;
+}
+.ambi-light-button::before{
+    content: "";
+    position: absolute;
+    left: -5px;
+    right: -5px;
+    top: -5px;
+    bottom: -5px;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    border-radius: 50px;
+    filter:blur(20px);
+    z-index: -1;
+}
+.ambi-light-button:hover{
+    animation: ambi 3s linear infinite;
+}
+.ambi-light-button:hover::before{
+    animation: ambi 3s linear infinite;
+}
+@keyframes ambi {
+    100%{
+        background-position: -400% 0;
+    }
+}

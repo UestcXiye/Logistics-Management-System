@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>修改物品信息</title>
+  <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+
+<body>
+<div class="container">
+  <h1 class="row skew-title">  
+  <span>修</span><span>改</span><span>物</span><span>品</span><span>信</span><span>息</span>
+  </h1>
+</div>
+
+<div class="input-container">
+    <form action="#" onsubmit="return false;" method="post" id="userForm">
+    <div class="input-field">
+        <input type="text" id="OrderNumber" name="" required="">
+        <label>请输入订单号</label>
+        <span></span>
+    </div><br>
+    <div class="input-field">
+        <input type="text" id="ArriveTime" name="" required="">
+        <label>请输入到达时间</label>
+        <span></span>
+    </div><br>
+    <div class="input-field">
+        <input type="text" id="Destination" name="" required="">
+        <label>请输入目的地</label>
+        <span></span>
+    </div><br>
+    <div class="input-field">
+        <input type="text" id="isVip" name="" required="">
+        <label>是否为VIP</label>
+        <span></span>
+    </div><br>
+    <div class="input-field">
+        <input type="text" id="isSend" name="" required="">
+        <label>是否已送出</label>
+        <span></span>
+    </div><br>
+      <input type="submit" value="确认" id="login" name="" class="btn">
+  </form>
+</div>
+
+<div style="position:absolute;left: 50%;top: 81%">
+    <a href="ItemInformationUpdate.html" target="_self" class="ambi-light-button">上一级</a>
+</div>
+
+<div style="position:absolute;left: 50%;top: 90%">
+    <a href="Main.html" target="_self" class="ambi-light-button">主界面</a>
+</div>
+</body>
+
+<script type="text/javascript">
+    function ModifyInfo() {
+        var OrderNumber = document.getElementById('OrderNumber');
+        var ArriveTime = document.getElementById('ArriveTime');
+        var Destination = document.getElementById('Destination');
+        var IsVip = document.getElementById('isVip');
+        var IsSend = document.getElementById('isSend');
+        if(OrderNumber.value.length!=6){
+            if(OrderNumber.value.length==0){ return; }
+            alert("订单号输入位数错误");
+            return;
+        }
+        if(ArriveTime.value.length!=12){
+            if(ArriveTime.value.length==0){ return; }
+            alert("到达站点时间输入位数错误");
+            return;
+        }
+        $.ajax({
+            type: "get",
+            url: "/update/ModifyInfo",
+            data: {
+                'OrderNumber': OrderNumber.value,
+                'ArriveTime':ArriveTime.value,
+                'Destination':Destination.value,
+                'IsVip':IsVip.value,
+                'IsSend':IsSend.value
+            },
+            dataType:"json",
+            success: function (data) {
+                console.log(data);
+                if (data!="") {
+                    alert("物品信息修改成功!");
+                } else {
+                    alert("物品信息修改失败或数据库存在读或写操作!");
+                }
+            },
+            error: function () {
+                console.log("物品信息修改异常!");
+                alert("服务器异常!");
+                location.href="Error.html";
+            }
+        })
+    }
+    $("#login").click(function(){
+        ModifyInfo();
+    });
+</script>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>插入物品信息</title>
+  <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link href="../static/icon/favicon.ico" rel="icon"/>
+</head>
+
+<body>
+<div class="container">
+  <h1 class="row skew-title">  
+  <span>插</span><span>入</span><span>物</span><span>品</span><span>信</span><span>息</span>
+  </h1>
+</div>
+
+<div class="input-container">
+    <form action="#" onsubmit="return false;" method="post" id="userForm">
+      <div class="input-field">
+          <input type="text" id="OrderNumber" name="OrderNumber" required="">
+          <label>请输入订单号</label>
+          <span></span>
+      </div><br>
+    <div class="input-field">
+        <input type="text" id="ArriveTime" name="ArriveTime" required="">
+        <label>请输入到达时间</label>
+        <span></span>
+    </div><br>
+    <div class="input-field">
+        <input type="text" id="Destination" name="Destination" required="">
+        <label>请输入目的地</label>
+        <span></span>
+    </div><br>
+    <div class="input-field">
+        <input type="text" id="IsVip" name="IsVip" required="">
+        <label>是否为VIP</label>
+        <span></span>
+    </div><br>
+    <div class="input-field">
+        <input type="text" id="IsSend" name="IsSend" required="">
+        <label>是否已送出</label>
+        <span></span>
+    </div><br>
+      <input type="submit" id="login" value="确认" name="" class="btn">
+  </form>
+</div>
+
+<div style="position:absolute;left: 50%;top: 81%">
+    <a href="ItemInformationUpdate.html" target="_self" class="ambi-light-button">上一级</a>
+</div>
+
+<div style="position:absolute;left: 50%;top: 90%">
+    <a href="Main.html" target="_self" class="ambi-light-button">主界面</a>
+</div>
+</body>
+
+<script type="text/javascript">
+    function InsertInfo() {
+        var OrderNumber = document.getElementById('OrderNumber');
+        var ArriveTime = document.getElementById('ArriveTime');
+        var Destination = document.getElementById('Destination');
+        var IsVip = document.getElementById('IsVip');
+        var IsSend = document.getElementById('IsSend');
+        if(OrderNumber.value.length!=6){
+            if(OrderNumber.value.length==0){ return; }
+            alert("订单号输入位数错误");
+            return;
+        }
+        if(ArriveTime.value.length!=12){
+            if(ArriveTime.value.length==0){ return; }
+            alert("到达站点时间输入位数错误");
+            return;
+        }
+        $.ajax({
+            type: "get",
+            url: "/update/InsertInfo",
+            data: {
+                'OrderNumber': OrderNumber.value,
+                'ArriveTime':ArriveTime.value,
+                'Destination':Destination.value,
+                'IsVip':IsVip.value,
+                'IsSend':IsSend.value
+            },
+            success: function (data) {
+                console.log(data);
+                if (data!="") {
+                    alert("物品信息插入成功!");
+                } else {
+                    alert("物品信息插入失败，数据库存在读或写操作!");
+                }
+            },
+            error: function () {
+                console.log("物品信息插入异常!");
+                alert("服务器异常!");
+                location.href="Error.html";
+            }
+        })
+    }
+    $("#login").click(function(){
+        InsertInfo();
+    });
+</script>
+</html>

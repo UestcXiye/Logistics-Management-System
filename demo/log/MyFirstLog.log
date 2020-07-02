@@ -1,0 +1,243 @@
+﻿2020-06-21 14:42:53.020 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 11120 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-21 14:42:53.022 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-21 14:42:54.163 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-11001"]
+2020-06-21 14:42:54.164 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-21 14:42:54.164 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-21 14:42:54.165 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-21 14:42:54.165 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-21 14:42:54.165 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-21 14:42:54.168 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-21 14:42:54.256 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-21 14:42:54.855 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-21 14:42:55.567 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-11001"]
+2020-06-21 14:42:55.616 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 3.017 seconds (JVM running for 3.879)
+2020-06-21 14:42:55.671 [ http-nio-11001-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-21 14:42:55.703 [ http-nio-11001-exec-1 ] - [ INFO  ] [ com.example.demo.controller.MainController : 18 ] - 用户进入登陆界面
+2020-06-21 14:43:02.466 [ http-nio-11001-exec-5 ] - [ INFO  ] [ com.example.demo.controller.UserController : 24 ] - 用户登录
+2020-06-21 14:43:12.609 [ http-nio-11001-exec-10 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 46 ] - 查询物流状态
+2020-06-21 14:43:18.758 [ http-nio-11001-exec-4 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 59 ] - 查询物品
+2020-06-21 14:43:24.067 [ http-nio-11001-exec-6 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 80 ] - 查询物流节点
+2020-06-21 14:43:29.620 [ http-nio-11001-exec-8 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 93 ] - 到达时间排序
+2020-06-21 14:43:33.252 [ http-nio-11001-exec-9 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 105 ] - 最短时间方案
+2020-06-21 14:43:34.611 [ http-nio-11001-exec-10 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 117 ] - 最少花费方案
+2020-06-21 14:43:35.624 [ http-nio-11001-exec-1 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 129 ] - 综合最优方案
+2020-06-21 14:43:36.962 [ http-nio-11001-exec-3 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 142 ] - 查找已发货
+2020-06-21 14:43:39.715 [ http-nio-11001-exec-2 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 155 ] - 查找未发货
+2020-06-21 14:43:40.362 [ http-nio-11001-exec-4 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 168 ] - 查找VIP
+2020-06-21 14:43:46.886 [ http-nio-11001-exec-6 ] - [ INFO  ] [ com.example.demo.controller.UpdateController : 178 ] - 发货成功
+2020-06-21 14:43:55.757 [ http-nio-11001-exec-8 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 180 ] - 节点信息显示
+2020-06-21 14:44:09.594 [ http-nio-11001-exec-2 ] - [ INFO  ] [ com.example.demo.controller.UpdateController : 86 ] - 修改物品信息
+2020-06-21 14:44:35.126 [ http-nio-11001-exec-7 ] - [ INFO  ] [ com.example.demo.controller.UpdateController : 145 ] - 物流节点信息修改成功
+2020-06-21 14:44:51.169 [ http-nio-11001-exec-10 ] - [ INFO  ] [ com.example.demo.dao.Impl.WordAnalyzeImpl : 75 ] - 词法分析：select:1
+*:5
+from:1
+goodslist:3
+
+2020-06-21 14:44:51.170 [ http-nio-11001-exec-10 ] - [ INFO  ] [ com.example.demo.service.impl.SQLServiceImpl : 39 ] - SQL解析器执行SELECT语句
+2020-06-21 14:44:59.108 [ http-nio-11001-exec-3 ] - [ INFO  ] [ com.example.demo.dao.Impl.WordAnalyzeImpl : 75 ] - 词法分析：select:1
+*:5
+from:1
+timemap:3
+
+2020-06-21 14:44:59.110 [ http-nio-11001-exec-3 ] - [ INFO  ] [ com.example.demo.service.impl.SQLServiceImpl : 39 ] - SQL解析器执行SELECT语句
+2020-06-21 14:45:09.721 [ http-nio-11001-exec-4 ] - [ INFO  ] [ com.example.demo.dao.Impl.WordAnalyzeImpl : 75 ] - 词法分析：select:1
+*:5
+fro:3
+goodslist:3
+
+2020-06-21 14:45:09.722 [ http-nio-11001-exec-4 ] - [ INFO  ] [ com.example.demo.service.impl.SQLServiceImpl : 61 ] - SQL语句不正确或者执行结果不正确
+2020-06-21 14:45:24.082 [ http-nio-11001-exec-6 ] - [ INFO  ] [ com.example.demo.dao.Impl.WordAnalyzeImpl : 75 ] - 词法分析：select:1
+*:5
+from:1
+goodslist:3
+where:1
+ordernumber:3
+=:6
+':7
+123132:4
+':7
+
+2020-06-21 14:45:24.083 [ http-nio-11001-exec-6 ] - [ INFO  ] [ com.example.demo.service.impl.SQLServiceImpl : 39 ] - SQL解析器执行SELECT语句
+2020-06-21 14:45:38.329 [ http-nio-11001-exec-8 ] - [ INFO  ] [ com.example.demo.dao.Impl.WordAnalyzeImpl : 75 ] - 词法分析：insert:1
+into:3
+goodslist:3
+values:1
+(:7
+':7
+123130:4
+':7
+,:7
+':7
+201905170503:4
+':7
+,:7
+':7
+hangzhou:3
+':7
+,:7
+':7
+true:3
+':7
+,:7
+':7
+false:3
+':7
+):7
+
+2020-06-21 14:45:38.330 [ http-nio-11001-exec-8 ] - [ INFO  ] [ com.example.demo.service.impl.SQLServiceImpl : 56 ] - SQL解析器执行其它语句
+2020-06-21 14:45:54.601 [ http-nio-11001-exec-9 ] - [ INFO  ] [ com.example.demo.dao.Impl.WordAnalyzeImpl : 75 ] - 词法分析：delete:1
+from:1
+goodslist:3
+where:1
+ordernumber:3
+=:6
+':7
+123132:4
+':7
+
+2020-06-21 14:45:54.602 [ http-nio-11001-exec-9 ] - [ INFO  ] [ com.example.demo.service.impl.SQLServiceImpl : 56 ] - SQL解析器执行其它语句
+2020-06-21 14:47:54.543 [ http-nio-11001-exec-3 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 46 ] - 查询物流状态
+2020-06-21 14:48:11.638 [ http-nio-11001-exec-4 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 46 ] - 查询物流状态
+2020-06-21 14:48:16.272 [ http-nio-11001-exec-5 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 46 ] - 查询物流状态
+2020-06-21 14:48:28.497 [ http-nio-11001-exec-7 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 46 ] - 查询物流状态
+2020-06-21 14:48:33.052 [ http-nio-11001-exec-8 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 59 ] - 查询物品
+2020-06-21 14:49:51.162 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 5976 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-21 14:49:51.165 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-21 14:49:52.225 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-11002"]
+2020-06-21 14:49:52.226 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-21 14:49:52.226 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-21 14:49:52.228 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-21 14:49:52.228 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-21 14:49:52.228 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-21 14:49:52.230 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-21 14:49:52.320 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-21 14:49:52.900 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-21 14:49:53.626 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-11002"]
+2020-06-21 14:49:53.663 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.93 seconds (JVM running for 3.766)
+2020-06-21 14:50:01.744 [ http-nio-11002-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-21 14:50:01.767 [ http-nio-11002-exec-1 ] - [ INFO  ] [ com.example.demo.controller.MainController : 18 ] - 用户进入登陆界面
+2020-06-21 14:50:05.930 [ http-nio-11002-exec-5 ] - [ INFO  ] [ com.example.demo.controller.UserController : 24 ] - 用户登录
+2020-06-21 14:50:12.362 [ http-nio-11002-exec-9 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 46 ] - 查询物流状态
+2020-06-21 14:50:18.344 [ http-nio-11002-exec-10 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 46 ] - 查询物流状态
+2020-06-21 14:50:26.427 [ http-nio-11002-exec-4 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 59 ] - 查询物品
+2020-06-21 14:51:22.594 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 8004 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-21 14:51:22.596 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-21 14:51:23.791 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-11002"]
+2020-06-21 14:51:23.792 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-21 14:51:23.792 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-21 14:51:23.794 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-21 14:51:23.794 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-21 14:51:23.794 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-21 14:51:23.797 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-21 14:51:23.879 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-21 14:51:24.487 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-21 14:51:25.238 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-11002"]
+2020-06-21 14:51:25.296 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 3.175 seconds (JVM running for 4.023)
+2020-06-21 14:51:25.315 [ http-nio-11002-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-21 14:51:25.335 [ http-nio-11002-exec-1 ] - [ INFO  ] [ com.example.demo.controller.MainController : 18 ] - 用户进入登陆界面
+2020-06-21 14:51:30.104 [ http-nio-11002-exec-2 ] - [ INFO  ] [ com.example.demo.controller.UserController : 24 ] - 用户登录
+2020-06-21 14:51:35.946 [ http-nio-11002-exec-4 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 46 ] - 查询物流状态
+2020-06-21 14:51:42.170 [ http-nio-11002-exec-6 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 59 ] - 查询物品
+2020-06-21 14:51:48.608 [ http-nio-11002-exec-9 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 80 ] - 查询物流节点
+2020-06-21 14:51:56.550 [ http-nio-11002-exec-1 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 93 ] - 到达时间排序
+2020-06-21 14:52:02.692 [ http-nio-11002-exec-3 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 105 ] - 最短时间方案
+2020-06-21 14:52:04.827 [ http-nio-11002-exec-5 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 117 ] - 最少花费方案
+2020-06-21 14:52:06.274 [ http-nio-11002-exec-4 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 129 ] - 综合最优方案
+2020-06-21 14:52:10.478 [ http-nio-11002-exec-6 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 142 ] - 查找已发货
+2020-06-21 14:52:12.240 [ http-nio-11002-exec-7 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 155 ] - 查找未发货
+2020-06-21 14:52:13.779 [ http-nio-11002-exec-8 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 168 ] - 查找VIP
+2020-06-21 14:52:21.905 [ http-nio-11002-exec-10 ] - [ INFO  ] [ com.example.demo.controller.UpdateController : 178 ] - 发货成功
+2020-06-21 14:52:31.290 [ http-nio-11002-exec-3 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 180 ] - 节点信息显示
+2020-06-21 14:52:42.550 [ http-nio-11002-exec-7 ] - [ INFO  ] [ com.example.demo.controller.UpdateController : 60 ] - 插入物品信息
+2020-06-21 14:53:07.513 [ http-nio-11002-exec-1 ] - [ INFO  ] [ com.example.demo.controller.UpdateController : 145 ] - 物流节点信息修改成功
+2020-06-21 14:53:19.510 [ http-nio-11002-exec-3 ] - [ INFO  ] [ com.example.demo.dao.Impl.WordAnalyzeImpl : 75 ] - 词法分析：select:1
+*:5
+from:1
+goodslist:3
+
+2020-06-21 14:53:19.511 [ http-nio-11002-exec-3 ] - [ INFO  ] [ com.example.demo.service.impl.SQLServiceImpl : 39 ] - SQL解析器执行SELECT语句
+2020-06-21 14:53:25.977 [ http-nio-11002-exec-4 ] - [ INFO  ] [ com.example.demo.dao.Impl.WordAnalyzeImpl : 75 ] - 词法分析：select:1
+*:5
+fro:3
+goodslist:3
+
+2020-06-21 14:53:25.978 [ http-nio-11002-exec-4 ] - [ INFO  ] [ com.example.demo.service.impl.SQLServiceImpl : 61 ] - SQL语句不正确或者执行结果不正确
+2020-06-21 14:53:36.864 [ http-nio-11002-exec-6 ] - [ INFO  ] [ com.example.demo.dao.Impl.WordAnalyzeImpl : 75 ] - 词法分析：select:1
+*:5
+from:1
+goodslist:3
+where:1
+ordernumber:3
+=:6
+':7
+123132:4
+':7
+
+2020-06-21 14:53:36.865 [ http-nio-11002-exec-6 ] - [ INFO  ] [ com.example.demo.service.impl.SQLServiceImpl : 39 ] - SQL解析器执行SELECT语句
+2020-06-21 14:53:53.527 [ http-nio-11002-exec-8 ] - [ INFO  ] [ com.example.demo.dao.Impl.WordAnalyzeImpl : 75 ] - 词法分析：update:1
+goodslist:3
+set:1
+isvip:3
+=:6
+':7
+false:3
+':7
+,:7
+issend:3
+=:6
+':7
+true:3
+':7
+where:1
+ordernumber:3
+=:6
+':7
+123132:4
+':7
+
+2020-06-21 14:53:53.528 [ http-nio-11002-exec-8 ] - [ INFO  ] [ com.example.demo.service.impl.SQLServiceImpl : 56 ] - SQL解析器执行其它语句
+2020-06-21 14:54:14.922 [ http-nio-11002-exec-9 ] - [ INFO  ] [ com.example.demo.dao.Impl.WordAnalyzeImpl : 75 ] - 词法分析：delete:1
+from:1
+goodslist:3
+where:1
+ordernumber:3
+=:6
+':7
+123130:4
+':7
+
+2020-06-21 14:54:14.923 [ http-nio-11002-exec-9 ] - [ INFO  ] [ com.example.demo.service.impl.SQLServiceImpl : 56 ] - SQL解析器执行其它语句
+2020-06-21 15:07:18.909 [ http-nio-11002-exec-3 ] - [ INFO  ] [ com.example.demo.controller.SearchController : 59 ] - 查询物品
+2020-06-21 15:11:03.008 [ http-nio-11002-exec-9 ] - [ INFO  ] [ com.example.demo.dao.Impl.WordAnalyzeImpl : 75 ] - 词法分析：delete:1
+from:1
+goodslist:3
+where:1
+ordernumber:3
+=:6
+':7
+123132:4
+':7
+
+2020-06-21 15:11:03.009 [ http-nio-11002-exec-9 ] - [ INFO  ] [ com.example.demo.service.impl.SQLServiceImpl : 56 ] - SQL解析器执行其它语句
+2020-06-21 15:11:09.346 [ http-nio-11002-exec-10 ] - [ INFO  ] [ com.example.demo.dao.Impl.WordAnalyzeImpl : 75 ] - 词法分析：delete:1
+from:1
+goodslist:3
+where:1
+ordernumber:3
+=:6
+':7
+123132:4
+':7
+
+2020-06-21 15:11:09.347 [ http-nio-11002-exec-10 ] - [ INFO  ] [ com.example.demo.service.impl.SQLServiceImpl : 56 ] - SQL解析器执行其它语句
+2020-06-21 15:11:28.146 [ http-nio-11002-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.WordAnalyzeImpl : 75 ] - 词法分析：delete:1
+fro:3
+goodslist:3
+where:1
+ordernumber:3
+=:6
+':7
+123132:4
+':7
+
+2020-06-21 15:11:28.147 [ http-nio-11002-exec-1 ] - [ INFO  ] [ com.example.demo.service.impl.SQLServiceImpl : 61 ] - SQL语句不正确或者执行结果不正确

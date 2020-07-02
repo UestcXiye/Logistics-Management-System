@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Error</title>
+  <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+
+<body>
+<div class="container" style="position:absolute;left:50%;top: 50%;transform: translate(-50%,-50%);">
+  <h1 class="row skew-title">  
+    <span class="alt">E</span><span class="alt">r</span><span class="alt">r</span><span class="alt">o</span><span class="alt">r</span><span class="alt">!</span>
+  </h1>
+</div>
+
+<script type="text/javascript">
+  (function() {
+    $('.skew-title').children('span').hover((function() {
+      var $el, n;
+      $el = $(this);
+      n = $el.index() + 1;
+      $el.addClass('flat');
+      if (n % 2 === 0) {
+        return $el.prev().addClass('flat');
+      } else {
+        if (!$el.hasClass('last')) {
+          return $el.next().addClass('flat');
+        }
+      }
+    }), function() {
+      return $('.flat').removeClass('flat');
+    });
+  
+  }).call(this);
+</script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>智慧物流查询系统</title>
+  <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+
+<body>
+<div class="container">
+  <h1 class="row skew-title">  
+    <span>智</span><span>慧</span><span>物</span><span>流</span><span>查</span><span>询</span><span>系</span><span>统</span>
+  </h1>
+</div>
+
+<div style="position:absolute;left: 50%;top: 30%">
+  <a href="StatusQuery.html" target="_self" class="ambi-light-button">查询物流状态</a>
+</div>
+
+<div style="position:absolute;left: 50%;top: 40%">
+  <a href="InformationQuery.html" target="_self" class="ambi-light-button">查询信息</a>
+</div>
+
+<div style="position:absolute;left: 50%;top: 50%">
+  <a href="ItemInformation.html" target="_self" class="ambi-light-button">物品信息</a>
+</div>
+
+<div style="position:absolute;left: 50%;top: 60%">
+  <a href="NodeInformation.html" target="_self" class="ambi-light-button">物流节点信息</a>
+</div>
+
+<div style="position:absolute;left: 50%;top: 70%">
+  <a href="ItemInformationUpdate.html" target="_self" class="ambi-light-button">物品信息更新</a>
+</div>
+
+<div style="position:absolute;left: 50%;top: 80%">
+  <a href="NodeInformationUpdate.html" target="_self" class="ambi-light-button">物流节点信息更新</a>
+</div>
+
+<div style="position:absolute;left: 50%;top: 90%">
+  <a href="SQL.html" target="_self" class="ambi-light-button">SQL解析器</a>
+</div>
+
+<script type="text/javascript">
+  (function() {
+    $('.skew-title').children('span').hover((function() {
+      var $el, n;
+      $el = $(this);
+      n = $el.index() + 1;
+      $el.addClass('flat');
+      if (n % 2 === 0) {
+        return $el.prev().addClass('flat');
+      } else {
+        if (!$el.hasClass('last')) {
+          return $el.next().addClass('flat');
+        }
+      }
+    }), function() {
+      return $('.flat').removeClass('flat');
+    });
+  
+  }).call(this);
+</script>
+</body>
+</html>

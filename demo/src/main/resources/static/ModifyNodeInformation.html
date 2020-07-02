@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>修改物流节点信息</title>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+
+<body>
+<div class="container">
+  <h1 class="row skew-title">  
+  <span>修</span><span>改</span><span>物</span><span>流</span><span>节</span><span>点</span><span>信</span><span>息</span>
+  </h1>
+</div>
+
+<div class="input-container">
+    <form action="#" onsubmit="return false;" method="post" id="userForm">
+    <div class="input-field">
+        <input type="text" id="CityName" name="" required="">
+        <label>请输入发出城市</label>
+        <span></span>
+    </div><br>
+    <div class="input-field">
+        <input type="text" id="Destination" name="" required="">
+        <label>请输入到达城市</label>
+        <span></span>
+    </div><br>
+    <div class="input-field">
+        <input type="text" id="Value" name="" required="">
+        <label>请输入修改值</label>
+        <span></span>
+    </div><br>
+    <div class="input-field">
+        <input type="text" id="Choice" name="" required="">
+        <label>选择：(0：时间，1：费用)</label>
+        <span></span>
+    </div>
+      <input type="submit" value="确认" id="login" name="" class="btn">
+  </form>
+</div>
+
+<div style=position:absolute;left:50%;top:80%>
+    <a href=NodeInformationUpdate.html target=_self class=ambi-light-button>返回上一级</a>
+</div>
+<div style=position:absolute;left:50%;top:90%>
+    <a href=Main.html target=_self class=ambi-light-button>返回主界面</a>
+</div>
+</body>
+
+<script type="text/javascript">
+    function UpdateNode() {
+        var CityName = document.getElementById('CityName');
+        var Destination= document.getElementById('Destination');
+        var Value = document.getElementById('Value');
+        var Choice = document.getElementById('Choice');
+        if(CityName.value.length==0||Destination.value.length==0||Value.value.length==0||Choice.value.length==0){
+            return;
+        }
+        if(Choice.value.length>1){
+            alert("请输入正确选择");
+            return;
+        }
+        $.ajax({
+            type: "get",
+            url: "/update/UpdateNode",
+            data: {
+                'CityName': CityName.value,
+                'Destination':Destination.value,
+                'Value':Value.value,
+                'Choice':Choice.value
+            },
+            success: function (data) {
+                console.log(data);
+                if (data=="true") {
+                    alert("物流节点信息修改成功!");
+                } else {
+                    alert("物流节点信息修改失败或数据库存在读或写操作!");
+                }
+            },
+            error: function () {
+                console.log("物流节点信息修改异常!");
+                alert("服务器异常!");
+                location.href="Error.html";
+            }
+        })
+    }
+    $("#login").click(function(){
+        UpdateNode();
+    });
+</script>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>删除物流节点信息</title>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+
+<body>
+<div class="container">
+  <h1 class="row skew-title">  
+  <span>删</span><span>除</span><span>物</span><span>流</span><span>节</span><span>点</span><span>信</span><span>息</span>
+  </h1>
+</div>
+
+<div class="input-container">
+  <form action="#" onsubmit="return false;" method="post" id="userForm">
+    <div class="input-field">
+        <input type="text" id="CityName" name="" required="">
+        <label>请输入发出城市</label>
+        <span></span>
+    </div>
+      <input type="submit" value="删除" id="delete" name="" class="btn">
+  </form>
+</div>
+
+<div style=position:absolute;left:50%;top:72%>
+  <a href=NodeInformationUpdate.html target=_self class=ambi-light-button>返回上一级</a>
+</div>
+<div style=position:absolute;left:50%;top:82%>
+  <a href=Main.html target=_self class=ambi-light-button>返回主界面</a>
+</div>
+</body>
+
+<script type="text/javascript">
+  function DeleteNode() {
+    var CityName = document.getElementById('CityName');
+    if(CityName.value.length==0){
+      return;
+    }
+    $.ajax({
+      type: "get",
+      url: "/update/DeleteNode",
+      data: {
+        'CityName': CityName.value
+      },
+      success: function (data) {
+        console.log(data);
+        if (data=="true") {
+          alert("物流节点信息删除成功!");
+        } else {
+          alert("不存在此物流节点或数据库存在读或写操作!");
+        }
+      },
+      error: function () {
+        console.log("物流节点信息删除异常!");
+        alert("服务器异常!");
+        location.href="Error.html";
+      }
+    })
+  }
+  $("#delete").click(function(){
+    DeleteNode();
+  });
+</script>
+</html>

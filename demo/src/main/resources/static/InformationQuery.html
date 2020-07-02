@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>信息查询</title>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+
+<body>
+<div class="container">
+  <h1 class="row skew-title">  
+    <span>信</span><span>息</span><span>查</span><span>询</span>
+  </h1>
+</div>
+
+<div style="position:absolute;left: 50%;top: 40%">
+    <a href="ItemInformationQuery.html" target="_self" class="ambi-light-button">查询物品信息</a>
+</div>
+  
+<div style="position:absolute;left: 50%;top: 50%">
+    <a href="NodeInformationQuery.html" target="_self" class="ambi-light-button">查询物流节点信息</a>
+</div>
+
+<div style="position:absolute;left: 50%;top: 60%">
+  <a href="Main.html" target="_self" class="ambi-light-button">返回主界面</a>
+</div>
+
+<script type="text/javascript">
+  (function() {
+    $('.skew-title').children('span').hover((function() {
+      var $el, n;
+      $el = $(this);
+      n = $el.index() + 1;
+      $el.addClass('flat');
+      if (n % 2 === 0) {
+        return $el.prev().addClass('flat');
+      } else {
+        if (!$el.hasClass('last')) {
+          return $el.next().addClass('flat');
+        }
+      }
+    }), function() {
+      return $('.flat').removeClass('flat');
+    });
+  
+  }).call(this);
+  </script>
+</body>
+</html>

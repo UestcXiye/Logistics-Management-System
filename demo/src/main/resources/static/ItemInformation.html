@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>物品信息</title>
+  <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+  <link href="../static/icon/favicon.ico" rel="icon"/>
+</head>
+
+<body>
+<div class="container">
+  <h1 class="row skew-title">  
+    <span>物</span><span>品</span><span>信</span><span>息</span>
+  </h1>
+</div>
+
+<div style="position:absolute;left: 85%;top: 20%">
+  <form action="#" onsubmit="return false;" method="post" id="userForm">
+  <button id="content1" class="ambi-light-button">到达时间排序</button>
+  </form>
+</div>
+
+<div style="position:absolute;left: 85%;top: 28%">
+  <form action="#" onsubmit="return false;" method="post">
+  <button id="content2" class="ambi-light-button">最短时间方案</button>
+  </form>
+</div>
+
+<div style="position:absolute;left: 85%;top: 36%">
+  <form action="#" onsubmit="return false;" method="post">
+  <button id="content3" class="ambi-light-button">最少花费方案</button>
+  </form>
+</div>
+
+<div style="position:absolute;left: 85%;top: 44%">
+  <form action="#" onsubmit="return false;" method="post">
+    <button id="content4" class="ambi-light-button">综合最优方案</button>
+  </form>
+</div>
+
+<div style="position:absolute;left: 85%;top: 52%">
+  <form action="#" onsubmit="return false;" method="post">
+  <button id="content5" class="ambi-light-button">已发货</button>
+  </form>
+</div>
+
+<div style="position:absolute;left: 85%;top: 60%">
+  <form action="#" onsubmit="return false;" method="post">
+  <button id= "content6" class="ambi-light-button">未发货</button>
+  </form>
+</div>
+
+<div style="position:absolute;left: 85%;top: 68%">
+  <form action="#" onsubmit="return false;" method="post">
+  <button id="content7" class="ambi-light-button">VIP</button>
+  </form>
+</div>
+
+<div style="position:absolute;left: 85%;top: 76%">
+    <a href="SendOut.html" target="_self" id="content8" class="ambi-light-button">发货</a>
+</div>
+
+<div style=position:absolute;left:85%;top:84%>
+  <a href=Main.html target=_self class=ambi-light-button>返回上一级</a>
+</div>
+
+<table id="box-table-a" summary="Logistics Node Information">
+  <tr>
+  <th scope=\"col\">订单号</th>
+  <th scope=\"col\">到站时间</th>
+  <th scope=\"col\">目的地</th>
+  <th scope=\"col\">时间</th>
+  <th scope=\"col\">路径</th>
+  <th scope=\"col\">已送出</th>
+  </tr>
+
+  <tr>
+    <td scope=\"col\">-</td>
+    <td scope=\"col\">-</td>
+    <td scope=\"col\">-</td>
+    <td scope=\"col\">-</td>
+    <td scope=\"col\">-</td>
+    <td scope=\"col\">-</td>
+  </tr>
+</table>
+</body>
+
+<script type="text/javascript">
+  function TimeSort() {
+    $.ajax({
+      type: "get",
+      url: "/search/TimeSort",
+      dataType:"json",
+      success: function (data) {
+        console.log(data);
+        var str="";
+        $("#box-table-a").empty();
+                str="<table id=\"box-table-a\" summary=\"Logistics Node Information\">" +
+                  "      <tr>" +
+                  "          <th scope=\"col\">订单号</th>" +
+                  "          <th scope=\"col\">到站时间</th>" +
+                  "          <th scope=\"col\">目的地</th>" +
+                  "          <th scope=\"col\">时间</th>" +
+                  "          <th scope=\"col\">时间最少方案</th>" +
+                  "          <th scope=\"col\">已送出</th>" +
+                  "      </tr>";
+
+        $("#box-table-a").html(str);
+        for(var i=0;i<data.length;i++){
+          str="     <tr><td>" +data[i].orderNumber+"</td><td>"+
+                    data[i].arriveTime+"</td><td>"+
+                    data[i].destination+"</td><td>"+
+                    data[i].cost+"</td><td>"+
+                    data[i].road+"</td><td>"+
+                    data[i].isSend+"</td></tr>";
+          $('#box-table-a').append(str);
+        }
+        $('#box-table-a').append("</table>");
+        },
+      error: function () {
+        console.log("到达时间排序异常");
+        alert("服务器异常");
+        location.href="Error.html";
+      }
+    })
+  }
+  $("#content1").click(function(){
+    TimeSort();
+  });
+  </script>
+
+<script type="text/javascript">
+  function MinTime() {
+    $.ajax({
+      type: "get",
+      url: "/search/MinTime",
+      dataType:"json",
+      success: function (data) {
+        console.log(data);
+        var str="";
+        $("#box-table-a").empty();
+        str="<table id=\"box-table-a\" summary=\"Logistics Node Information\">" +
+                "      <tr>" +
+                "          <th scope=\"col\">订单号</th>" +
+                "          <th scope=\"col\">到站时间</th>" +
+                "          <th scope=\"col\">目的地</th>" +
+                "          <th scope=\"col\">时间</th>" +
+                "          <th scope=\"col\">时间最少方案物流路线</th>" +
+                "          <th scope=\"col\">VIP</th>" +
+                "          <th scope=\"col\">已送出</th>" +
+                "      </tr>";
+
+        $("#box-table-a").html(str);
+        for(var i=0;i<data.length;i++){
+          str="     <tr><td>" +data[i].orderNumber+"</td><td>"+
+                  data[i].arriveTime+"</td><td>"+
+                  data[i].destination+"</td><td>"+
+                  data[i].cost+"</td><td>"+
+                  data[i].road+"</td><td>"+
+                  data[i].isVip+"</td><td>"+
+                  data[i].isSend+"</td></tr>";
+          $('#box-table-a').append(str);
+        }
+        $('#box-table-a').append("</table>");
+      },
+      error: function () {
+        console.log("最少时间排序异常");
+        alert("服务器异常");
+        location.href="Error.html";
+      }
+    })
+  }
+  $("#content2").click(function(){
+    MinTime();
+  });
+</script>
+
+<script type="text/javascript">
+  function MinCost() {
+    $.ajax({
+      type: "get",
+      url: "/search/MinCost",
+      dataType:"json",
+      success: function (data) {
+        console.log(data);
+        var str="";
+        $("#box-table-a").empty();
+        str="<table id=\"box-table-a\" summary=\"Logistics Node Information\">" +
+                "      <tr>" +
+                "          <th scope=\"col\">订单号</th>" +
+                "          <th scope=\"col\">到站时间</th>" +
+                "          <th scope=\"col\">目的地</th>" +
+                "          <th scope=\"col\">费用</th>" +
+                "          <th scope=\"col\">费用最少方案物流路线</th>" +
+                "          <th scope=\"col\">VIP</th>" +
+                "          <th scope=\"col\">已送出</th>" +
+                "      </tr>";
+
+        $("#box-table-a").html(str);
+        for(var i=0;i<data.length;i++){
+          str="     <tr><td>" +data[i].orderNumber+"</td><td>"+
+                  data[i].arriveTime+"</td><td>"+
+                  data[i].destination+"</td><td>"+
+                  data[i].cost+"</td><td>"+
+                  data[i].road+"</td><td>"+
+                  data[i].isVip+"</td><td>"+
+                  data[i].isSend+"</td></tr>";
+          $('#box-table-a').append(str);
+        }
+        $('#box-table-a').append("</table>");
+      },
+      error: function () {
+        console.log("最少费用排序异常");
+        alert("服务器异常");
+        location.href="Error.html";
+      }
+    })
+  }
+  $("#content3").click(function(){
+    MinCost();
+  });
+</script>
+
+<script type="text/javascript">
+  function MinGeneral() {
+    $.ajax({
+      type: "get",
+      url: "/search/MinGeneral",
+      dataType:"json",
+      success: function (data) {
+        console.log(data);
+        var str="";
+        $("#box-table-a").empty();
+        str="<table id=\"box-table-a\" summary=\"Logistics Node Information\">" +
+                "      <tr>" +
+                "          <th scope=\"col\">订单号</th>" +
+                "          <th scope=\"col\">到站时间</th>" +
+                "          <th scope=\"col\">目的地</th>" +
+                "          <th scope=\"col\">综合花费</th>" +
+                "          <th scope=\"col\">综合最优方案物流路线</th>" +
+                "          <th scope=\"col\">VIP</th>" +
+                "          <th scope=\"col\">已送出</th>" +
+                "      </tr>";
+
+        $("#box-table-a").html(str);
+        for(var i=0;i<data.length;i++){
+          str="     <tr><td>" +data[i].orderNumber+"</td><td>"+
+                  data[i].arriveTime+"</td><td>"+
+                  data[i].destination+"</td><td>"+
+                  data[i].cost+"</td><td>"+
+                  data[i].road+"</td><td>"+
+                  data[i].isVip+"</td><td>"+
+                  data[i].isSend+"</td></tr>";
+          $('#box-table-a').append(str);
+        }
+        $('#box-table-a').append("</table>");
+      },
+      error: function () {
+        console.log("综合最优方案排序异常");
+        alert("服务器异常");
+        location.href="Error.html";
+      }
+    })
+  }
+  $("#content4").click(function(){
+    MinGeneral();
+  });
+</script>
+
+<script type="text/javascript">
+  function IsSend() {
+    $.ajax({
+      type: "get",
+      url: "/search/IsSend",
+      dataType:"json",
+      success: function (data) {
+        console.log(data);
+        var str="";
+        $("#box-table-a").empty();
+        str="<table id=\"box-table-a\" summary=\"Logistics Node Information\">" +
+                "      <tr>" +
+                "          <th scope=\"col\">订单号</th>" +
+                "          <th scope=\"col\">到站时间</th>" +
+                "          <th scope=\"col\">目的地</th>" +
+                "          <th scope=\"col\">费用</th>" +
+                "          <th scope=\"col\">物流路线</th>" +
+                "          <th scope=\"col\">VIP</th>" +
+                "      </tr>";
+
+        $("#box-table-a").html(str);
+        for(var i=0;i<data.length;i++){
+          str="     <tr><td>" +data[i].orderNumber+"</td><td>"+
+                  data[i].arriveTime+"</td><td>"+
+                  data[i].destination+"</td><td>"+
+                  data[i].cost+"</td><td>"+
+                  data[i].road+"</td><td>"+
+                  data[i].isVip+"</td></tr>";
+          $('#box-table-a').append(str);
+        }
+        $('#box-table-a').append("</table>");
+      },
+      error: function () {
+        console.log("已发货查找排序异常");
+        alert("服务器异常");
+        location.href="Error.html";
+      }
+    })
+  }
+  $("#content5").click(function(){
+    IsSend();
+  });
+</script>
+
+<script type="text/javascript">
+  function NotSend() {
+    $.ajax({
+      type: "get",
+      url: "/search/NotSend",
+      dataType:"json",
+      success: function (data) {
+        console.log(data);
+        var str="";
+        $("#box-table-a").empty();
+        str="<table id=\"box-table-a\" summary=\"Logistics Node Information\">" +
+                "      <tr>" +
+                "          <th scope=\"col\">订单号</th>" +
+                "          <th scope=\"col\">到站时间</th>" +
+                "          <th scope=\"col\">目的地</th>" +
+                "          <th scope=\"col\">费用</th>" +
+                "          <th scope=\"col\">物流路线</th>" +
+                "          <th scope=\"col\">VIP</th>" +
+                "      </tr>";
+
+        $("#box-table-a").html(str);
+        for(var i=0;i<data.length;i++){
+          str="     <tr><td>" +data[i].orderNumber+"</td><td>"+
+                  data[i].arriveTime+"</td><td>"+
+                  data[i].destination+"</td><td>"+
+                  data[i].cost+"</td><td>"+
+                  data[i].road+"</td><td>"+
+                  data[i].isVip+"</td></tr>";
+          $('#box-table-a').append(str);
+        }
+        $('#box-table-a').append("</table>");
+      },
+      error: function () {
+        console.log("未发货查找异常");
+        alert("服务器异常");
+        location.href="Error.html";
+      }
+    })
+  }
+  $("#content6").click(function(){
+    NotSend();
+  });
+</script>
+
+<script type="text/javascript">
+  function IsVip() {
+    $.ajax({
+      type: "get",
+      url: "/search/IsVip",
+      dataType:"json",
+      success: function (data) {
+        console.log(data);
+        var str="";
+        $("#box-table-a").empty();
+        str="<table id=\"box-table-a\" summary=\"Logistics Node Information\">" +
+                "      <tr>" +
+                "          <th scope=\"col\">订单号</th>" +
+                "          <th scope=\"col\">到站时间</th>" +
+                "          <th scope=\"col\">目的地</th>" +
+                "          <th scope=\"col\">时间</th>" +
+                "          <th scope=\"col\">物流路线</th>" +
+                "          <th scope=\"col\">已送出</th>" +
+                "      </tr>";
+
+        $("#box-table-a").html(str);
+        for(var i=0;i<data.length;i++){
+          str="     <tr><td>" +data[i].orderNumber+"</td><td>"+
+                  data[i].arriveTime+"</td><td>"+
+                  data[i].destination+"</td><td>"+
+                  data[i].cost+"</td><td>"+
+                  data[i].road+"</td><td>"+
+                  data[i].isSend+"</td></tr>";
+          $('#box-table-a').append(str);
+        }
+        $('#box-table-a').append("</table>");
+      },
+      error: function () {
+        console.log("VIP查找异常");
+        alert("服务器异常");
+        location.href="Error.html";
+      }
+    })
+  }
+  $("#content7").click(function(){
+    IsVip();
+  });
+</script>
+
+</html>

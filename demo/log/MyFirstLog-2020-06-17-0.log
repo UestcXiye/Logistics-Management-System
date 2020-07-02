@@ -1,0 +1,771 @@
+2020-06-17 00:01:28.312 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 660 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 00:01:28.318 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 00:01:29.241 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:01:29.242 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 00:01:29.242 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 00:01:29.243 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 00:01:29.244 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 00:01:29.244 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 00:01:29.246 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 00:01:29.318 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 00:01:29.797 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 00:01:30.389 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:01:30.428 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.445 seconds (JVM running for 3.122)
+2020-06-17 00:01:32.044 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 00:01:32.068 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 70 ] - SQL语法解析结果：{ select:* ; from:goodslist ; where:ordernumber=123132 }
+2020-06-17 00:02:21.680 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 12204 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 00:02:21.682 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 00:02:22.606 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:02:22.607 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 00:02:22.607 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 00:02:22.608 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 00:02:22.608 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 00:02:22.608 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 00:02:22.611 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 00:02:22.679 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 00:02:23.149 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 00:02:23.737 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:02:23.771 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.45 seconds (JVM running for 3.129)
+2020-06-17 00:02:25.358 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 00:02:25.386 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 70 ] - SQL语法解析结果：{ select:* ; from:timemap ; where:cityname='chengdu' }
+2020-06-17 00:02:40.280 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 6384 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 00:02:40.283 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 00:02:41.154 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:02:41.155 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 00:02:41.155 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 00:02:41.156 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 00:02:41.156 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 00:02:41.156 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 00:02:41.161 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 00:02:41.228 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 00:02:41.677 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 00:02:42.264 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:02:42.300 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.344 seconds (JVM running for 3.001)
+2020-06-17 00:02:44.071 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 00:02:44.101 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 70 ] - SQL语法解析结果：{ select:* ; from:costmap ; where:cityname='chengdu' }
+2020-06-17 00:03:03.312 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 12556 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 00:03:03.314 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 00:03:04.183 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:03:04.183 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 00:03:04.184 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 00:03:04.185 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 00:03:04.185 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 00:03:04.185 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 00:03:04.187 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 00:03:04.258 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 00:03:04.714 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 00:03:05.333 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:03:05.367 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.382 seconds (JVM running for 3.045)
+2020-06-17 00:03:06.957 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 00:03:06.987 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 70 ] - SQL语法解析结果：{ select:* ; from:goodslist ; order by:arrivetime }
+2020-06-17 00:03:42.657 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 12428 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 00:03:42.671 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 00:03:43.763 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:03:43.767 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 00:03:43.768 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 00:03:43.769 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 00:03:43.770 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 00:03:43.770 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 00:03:43.773 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 00:03:43.876 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 00:03:44.406 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 00:03:45.097 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:03:45.146 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.909 seconds (JVM running for 3.764)
+2020-06-17 00:03:46.199 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 00:03:46.240 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 70 ] - SQL语法解析结果：{ select:* ; from:goodslist ; order by:arrivetime }
+2020-06-17 00:04:15.899 [ SpringContextShutdownHook ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 1863 ] - {dataSource-1} closed
+2020-06-17 00:06:02.464 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 3756 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 00:06:02.466 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 00:06:03.310 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:06:03.310 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 00:06:03.311 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 00:06:03.312 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 00:06:03.312 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 00:06:03.312 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 00:06:03.314 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 00:06:03.385 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 00:06:03.826 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 00:06:04.485 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:06:04.517 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.396 seconds (JVM running for 3.155)
+2020-06-17 00:06:05.432 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 00:06:05.456 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 70 ] - SQL语法解析结果：{ select:* ; from:goodslist ; order by:arrivetime }
+2020-06-17 00:06:18.304 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 4216 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 00:06:18.306 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 00:06:19.171 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:06:19.171 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 00:06:19.172 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 00:06:19.173 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 00:06:19.173 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 00:06:19.173 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 00:06:19.177 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 00:06:19.243 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 00:06:19.690 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 00:06:20.275 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:06:20.311 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.346 seconds (JVM running for 3.065)
+2020-06-17 00:06:21.498 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 00:06:21.529 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 70 ] - SQL语法解析结果：{ select:* ; from:goodlist ; order by:arrivetime }
+2020-06-17 00:07:29.780 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 5956 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 00:07:29.783 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 00:07:30.727 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:07:30.728 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 00:07:30.728 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 00:07:30.730 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 00:07:30.730 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 00:07:30.730 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 00:07:30.733 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 00:07:30.819 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 00:07:31.319 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 00:07:31.918 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:07:31.953 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.576 seconds (JVM running for 3.352)
+2020-06-17 00:07:32.928 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 00:07:32.956 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 38 ] - SQL语法解析结果：{ select:isvip ; from:goodslist ; }
+2020-06-17 00:07:32.977 [ http-nio-8088-exec-1 ] - [ ERROR ] [ c.e.d.e.GlobalException$$EnhancerBySpringCGLIB$$83134577 : 37 ] - 发生一次其他异常
+2020-06-17 00:08:21.318 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 3100 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 00:08:21.320 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 00:08:22.213 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:08:22.214 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 00:08:22.214 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 00:08:22.215 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 00:08:22.215 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 00:08:22.215 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 00:08:22.220 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 00:08:22.306 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 00:08:22.776 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 00:08:23.371 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:08:23.409 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.439 seconds (JVM running for 3.144)
+2020-06-17 00:08:24.663 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 00:08:24.692 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 38 ] - SQL语法解析结果：{ select:isvip ; from:goodslist ; }
+2020-06-17 00:11:03.696 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 2544 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 00:11:03.699 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 00:11:04.554 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:11:04.555 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 00:11:04.555 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 00:11:04.556 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 00:11:04.556 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 00:11:04.557 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 00:11:04.559 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 00:11:04.636 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 00:11:05.097 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 00:11:05.707 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:11:05.743 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.373 seconds (JVM running for 3.035)
+2020-06-17 00:11:06.886 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 00:11:06.919 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 70 ] - SQL语法解析结果：{ select:* ; from:goodslist ; where:ordernumber=312313 }
+2020-06-17 00:11:21.191 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 3720 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 00:11:21.194 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 00:11:22.070 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:11:22.071 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 00:11:22.071 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 00:11:22.072 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 00:11:22.072 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 00:11:22.073 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 00:11:22.075 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 00:11:22.142 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 00:11:22.584 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 00:11:23.185 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:11:23.240 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.377 seconds (JVM running for 3.026)
+2020-06-17 00:11:24.229 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 00:11:24.254 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 70 ] - SQL语法解析结果：{ select:* ; from:goodslist ; where:ordernumber=312313 }
+2020-06-17 00:13:28.331 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 7180 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 00:13:28.333 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 00:13:29.202 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:13:29.202 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 00:13:29.202 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 00:13:29.203 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 00:13:29.204 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 00:13:29.204 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 00:13:29.206 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 00:13:29.284 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 00:13:29.734 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 00:13:30.351 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:13:30.388 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.394 seconds (JVM running for 3.045)
+2020-06-17 00:13:31.276 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 00:13:31.302 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 99 ] - SQL语法解析结果：{ insert into:goodslist values(1,431421,412,412,41)}
+2020-06-17 00:14:11.480 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 11308 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 00:14:11.482 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 00:14:12.349 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:14:12.350 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 00:14:12.350 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 00:14:12.351 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 00:14:12.351 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 00:14:12.352 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 00:14:12.356 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 00:14:12.424 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 00:14:12.878 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 00:14:13.461 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:14:13.494 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.345 seconds (JVM running for 3.005)
+2020-06-17 00:14:35.355 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 4872 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 00:14:35.358 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 00:14:36.213 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:14:36.214 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 00:14:36.214 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 00:14:36.215 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 00:14:36.216 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 00:14:36.216 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 00:14:36.218 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 00:14:36.297 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 00:14:36.747 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 00:14:37.338 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:14:37.372 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.342 seconds (JVM running for 3.003)
+2020-06-17 00:14:38.895 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 00:14:38.922 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 134 ] - SQL语法解析结果：{ update:goodslist ; set:arrivetime=31 ; where:ordernumber=1 ; }
+2020-06-17 00:15:06.701 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 12808 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 00:15:06.703 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 00:15:07.569 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:15:07.570 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 00:15:07.570 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 00:15:07.571 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 00:15:07.571 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 00:15:07.571 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 00:15:07.574 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 00:15:07.642 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 00:15:08.115 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 00:15:08.718 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:15:08.754 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.39 seconds (JVM running for 3.051)
+2020-06-17 00:15:10.310 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 00:15:10.333 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 148 ] - SQL语法解析结果：{ delete from:goodslist ; where:ordernumber=1}
+2020-06-17 00:16:04.301 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 12772 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 00:16:04.303 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 00:16:05.161 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:16:05.162 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 00:16:05.162 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 00:16:05.163 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 00:16:05.163 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 00:16:05.164 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 00:16:05.166 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 00:16:05.252 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 00:16:05.666 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 00:16:06.285 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:16:06.322 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.347 seconds (JVM running for 3.052)
+2020-06-17 00:16:08.706 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 00:16:08.729 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 162 ] - SQL语法解析结果：{create table:person (lastname varchar(30),firstname varchar(30),address varchar(120),age int(3) }
+2020-06-17 00:16:08.796 [ http-nio-8088-exec-1 ] - [ ERROR ] [ c.e.d.e.GlobalException$$EnhancerBySpringCGLIB$$bdd19dcb : 37 ] - 发生一次其他异常
+2020-06-17 00:17:15.022 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 2528 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 00:17:15.024 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 00:17:15.896 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:17:15.897 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 00:17:15.897 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 00:17:15.898 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 00:17:15.898 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 00:17:15.899 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 00:17:15.903 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 00:17:15.970 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 00:17:16.410 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 00:17:16.997 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:17:17.033 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.341 seconds (JVM running for 3.008)
+2020-06-17 00:17:18.758 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 00:17:18.788 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 162 ] - SQL语法解析结果：{create table:person(lastname varchar(30),firstname varchar(30),address varchar(120),age int(3)) }
+2020-06-17 00:17:46.810 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 7884 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 00:17:46.812 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 00:17:47.687 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:17:47.688 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 00:17:47.688 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 00:17:47.689 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 00:17:47.689 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 00:17:47.689 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 00:17:47.692 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 00:17:47.757 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 00:17:48.201 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 00:17:48.780 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 00:17:48.813 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.35 seconds (JVM running for 3.08)
+2020-06-17 00:17:50.277 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 00:17:50.305 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 174 ] - SQL语法解析结果：{drop table:person}
+2020-06-17 12:09:24.254 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 10496 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 12:09:24.254 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 12:09:25.320 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:09:25.320 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 12:09:25.320 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 12:09:25.320 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 12:09:25.320 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 12:09:25.320 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 12:09:25.320 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 12:09:25.413 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 12:09:26.021 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 12:09:27.069 [ Druid-ConnectionPool-Create-5005045 ] - [ ERROR ] [ com.alibaba.druid.pool.DruidDataSource : 2507 ] - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/wuliu?serverTimezone=Asia/Shanghai&user=root&password=tzj000424&useUnicode=true&characterEncoding=utf-8&useSSL=true, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1570)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1636)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2505)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 6 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 9 common frames omitted
+2020-06-17 12:09:28.072 [ Druid-ConnectionPool-Create-5005045 ] - [ ERROR ] [ com.alibaba.druid.pool.DruidDataSource : 2507 ] - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/wuliu?serverTimezone=Asia/Shanghai&user=root&password=tzj000424&useUnicode=true&characterEncoding=utf-8&useSSL=true, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1570)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1636)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2505)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 6 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 9 common frames omitted
+2020-06-17 12:09:29.591 [ Druid-ConnectionPool-Create-5005045 ] - [ ERROR ] [ com.alibaba.druid.pool.DruidDataSource : 2507 ] - create connection SQLException, url: jdbc:mysql://127.0.0.1:3306/wuliu?serverTimezone=Asia/Shanghai&user=root&password=tzj000424&useUnicode=true&characterEncoding=utf-8&useSSL=true, errorCode 0, state 08S01
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1570)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1636)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2505)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:144)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:956)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:826)
+	... 6 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 9 common frames omitted
+2020-06-17 12:11:16.888 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 3268 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 12:11:16.890 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 12:11:17.747 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:11:17.748 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 12:11:17.748 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 12:11:17.749 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 12:11:17.749 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 12:11:17.749 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 12:11:17.754 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 12:11:17.833 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 12:11:18.273 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 12:11:18.981 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:11:19.018 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.456 seconds (JVM running for 3.141)
+2020-06-17 12:11:22.054 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 12:11:22.083 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 96 ] - SQL语法解析结果：{ select:* ; from:goodslist ; }from:goodslist }
+2020-06-17 12:14:12.172 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 1856 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 12:14:12.175 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 12:14:13.040 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:14:13.041 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 12:14:13.041 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 12:14:13.042 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 12:14:13.043 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 12:14:13.043 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 12:14:13.045 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 12:14:13.127 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 12:14:13.566 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 12:14:14.158 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:14:14.190 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.347 seconds (JVM running for 3.032)
+2020-06-17 12:14:15.960 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 12:14:25.891 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 8144 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 12:14:25.893 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 12:14:26.755 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:14:26.756 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 12:14:26.756 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 12:14:26.757 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 12:14:26.757 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 12:14:26.757 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 12:14:26.759 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 12:14:26.846 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 12:14:27.266 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 12:14:27.894 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:14:27.926 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.365 seconds (JVM running for 3.071)
+2020-06-17 12:14:29.719 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 12:14:29.755 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 99 ] - SQL语法解析结果：{ select:* ; from:goodslist ; }from:goodslist }
+2020-06-17 12:14:38.309 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 8612 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 12:14:38.311 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 12:14:39.168 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:14:39.169 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 12:14:39.169 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 12:14:39.170 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 12:14:39.170 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 12:14:39.170 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 12:14:39.172 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 12:14:39.238 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 12:14:39.680 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 12:14:40.265 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:14:40.297 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.316 seconds (JVM running for 3.012)
+2020-06-17 12:14:42.862 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 12:44:12.303 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 12492 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 12:44:12.306 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 12:44:13.358 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:44:13.359 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 12:44:13.360 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 12:44:13.361 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 12:44:13.362 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 12:44:13.362 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 12:44:13.364 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 12:44:13.450 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 12:44:14.023 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 12:44:14.753 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:44:14.786 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.876 seconds (JVM running for 3.818)
+2020-06-17 12:44:20.257 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 12:44:20.283 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 99 ] - SQL语法解析结果：{ select:* ; from:goodslist ; order by:arrivetime }
+2020-06-17 12:44:36.758 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 12640 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 12:44:36.760 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 12:44:37.685 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:44:37.685 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 12:44:37.686 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 12:44:37.687 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 12:44:37.687 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 12:44:37.687 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 12:44:37.689 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 12:44:37.760 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 12:44:38.213 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 12:44:38.814 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:44:38.848 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.449 seconds (JVM running for 3.11)
+2020-06-17 12:44:41.048 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 12:44:41.077 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 99 ] - SQL语法解析结果：{ select:isvip,issend ; from:goodslist ; order by:arrivetime }
+2020-06-17 12:44:46.413 [ http-nio-8088-exec-2 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 99 ] - SQL语法解析结果：{ select:isvip,issend ; from:goodslist ; order by:arrivetime }
+2020-06-17 12:45:44.070 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 7892 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 12:45:44.072 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 12:45:44.961 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:45:44.962 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 12:45:44.962 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 12:45:44.963 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 12:45:44.963 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 12:45:44.964 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 12:45:44.966 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 12:45:45.034 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 12:45:45.485 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 12:45:46.078 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:45:46.111 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.379 seconds (JVM running for 3.061)
+2020-06-17 12:45:47.939 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 12:45:47.964 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 99 ] - SQL语法解析结果：{ select:isvip,issend ; from:goodslist ; order by:arrivetime }
+2020-06-17 12:46:44.986 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 12236 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 12:46:44.988 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 12:46:45.849 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:46:45.849 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 12:46:45.850 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 12:46:45.851 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 12:46:45.851 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 12:46:45.851 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 12:46:45.853 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 12:46:45.924 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 12:46:46.377 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 12:46:46.973 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:46:47.033 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.379 seconds (JVM running for 3.074)
+2020-06-17 12:46:47.957 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 12:46:47.981 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 99 ] - SQL语法解析结果：{ select:isvip,issend ; from:goodslist ; order by:arrivetime }
+2020-06-17 12:47:25.310 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 1428 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 12:47:25.314 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 12:47:26.187 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:47:26.188 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 12:47:26.188 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 12:47:26.189 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 12:47:26.189 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 12:47:26.190 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 12:47:26.194 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 12:47:26.264 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 12:47:26.714 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 12:47:27.307 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:47:27.344 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.367 seconds (JVM running for 3.054)
+2020-06-17 12:47:28.768 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 12:47:28.792 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 99 ] - SQL语法解析结果：{ select:isvip,issend ; from:goodslist ; order by:arrivetime }
+2020-06-17 12:57:39.154 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 11972 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 12:57:39.156 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 12:57:40.011 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:57:40.011 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 12:57:40.012 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 12:57:40.013 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 12:57:40.013 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 12:57:40.013 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 12:57:40.015 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 12:57:40.085 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 12:57:40.529 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 12:57:41.130 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:57:41.162 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.395 seconds (JVM running for 3.098)
+2020-06-17 12:57:42.443 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 12:57:42.469 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 99 ] - SQL语法解析结果：{ select:isvip,issend ; from:goodslist ; order by:arrivetime }
+2020-06-17 12:58:14.425 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 3584 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 12:58:14.427 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 12:58:15.328 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:58:15.329 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 12:58:15.329 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 12:58:15.330 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 12:58:15.330 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 12:58:15.330 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 12:58:15.332 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 12:58:15.401 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 12:58:15.835 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 12:58:16.457 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:58:16.491 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.415 seconds (JVM running for 3.158)
+2020-06-17 12:58:17.403 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 12:58:17.426 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 99 ] - SQL语法解析结果：{ select:cityname ; from:timemap ; }from:timemap }
+2020-06-17 12:58:30.892 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 200 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 12:58:30.895 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 12:58:31.790 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:58:31.790 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 12:58:31.791 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 12:58:31.792 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 12:58:31.792 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 12:58:31.792 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 12:58:31.794 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 12:58:31.865 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 12:58:32.319 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 12:58:32.903 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 12:58:32.941 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.42 seconds (JVM running for 3.084)
+2020-06-17 12:58:33.701 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 12:58:33.729 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 99 ] - SQL语法解析结果：{ select:cityname ; from:costmap ; }from:costmap }
+2020-06-17 20:56:29.336 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 3740 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 20:56:29.338 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 20:56:30.235 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 20:56:30.236 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 20:56:30.236 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 20:56:30.237 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 20:56:30.237 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 20:56:30.237 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 20:56:30.240 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 20:56:30.310 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 20:56:30.787 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 20:56:31.416 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 20:56:31.449 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.448 seconds (JVM running for 3.102)
+2020-06-17 20:56:32.706 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 20:56:32.817 [ http-nio-8088-exec-1 ] - [ ERROR ] [ c.e.d.e.GlobalException$$EnhancerBySpringCGLIB$$a291a743 : 37 ] - 发生一次其他异常
+2020-06-17 20:57:15.943 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 10740 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 20:57:15.945 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 20:57:16.889 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 20:57:16.890 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 20:57:16.890 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 20:57:16.891 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 20:57:16.892 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 20:57:16.892 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 20:57:16.894 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 20:57:16.965 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 20:57:17.453 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 20:57:18.050 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 20:57:18.083 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.477 seconds (JVM running for 3.148)
+2020-06-17 20:57:22.210 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 20:57:22.302 [ http-nio-8088-exec-1 ] - [ ERROR ] [ c.e.d.e.GlobalException$$EnhancerBySpringCGLIB$$24896ca5 : 37 ] - 发生一次其他异常
+2020-06-17 21:01:25.904 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 9192 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 21:01:25.906 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 21:01:26.763 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 21:01:26.763 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 21:01:26.764 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 21:01:26.765 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 21:01:26.765 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 21:01:26.765 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 21:01:26.767 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 21:01:26.835 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 21:01:27.321 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 21:01:27.942 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 21:01:27.979 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.423 seconds (JVM running for 3.132)
+2020-06-17 21:01:30.229 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 21:01:30.327 [ http-nio-8088-exec-1 ] - [ ERROR ] [ c.e.d.e.GlobalException$$EnhancerBySpringCGLIB$$e6e50f66 : 37 ] - 发生一次其他异常
+2020-06-17 21:01:51.493 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 8772 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 21:01:51.495 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 21:01:52.331 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 21:01:52.332 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 21:01:52.333 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 21:01:52.333 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 21:01:52.334 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 21:01:52.334 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 21:01:52.336 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 21:01:52.404 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 21:01:52.834 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 21:01:53.459 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 21:01:53.491 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.339 seconds (JVM running for 3.04)
+2020-06-17 21:01:55.151 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 21:02:58.054 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 10488 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 21:02:58.057 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 21:02:58.930 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 21:02:58.931 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 21:02:58.931 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 21:02:58.932 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 21:02:58.932 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 21:02:58.932 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 21:02:58.934 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 21:02:59.002 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 21:02:59.451 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 21:03:00.042 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 21:03:00.077 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.35 seconds (JVM running for 3.018)
+2020-06-17 21:03:12.997 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 13388 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 21:03:12.999 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 21:03:13.858 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 21:03:13.859 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 21:03:13.859 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 21:03:13.860 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 21:03:13.860 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 21:03:13.860 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 21:03:13.862 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 21:03:13.930 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 21:03:14.371 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 21:03:14.961 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 21:03:15.010 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.342 seconds (JVM running for 3.0)
+2020-06-17 21:03:16.526 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 21:03:36.114 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 13332 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 21:03:36.116 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 21:03:36.984 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 21:03:36.984 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 21:03:36.985 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 21:03:36.986 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 21:03:36.986 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 21:03:36.986 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 21:03:36.988 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 21:03:37.055 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 21:03:37.512 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 21:03:38.099 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 21:03:38.138 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.348 seconds (JVM running for 2.998)
+2020-06-17 21:03:39.833 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 21:03:58.789 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 4204 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 21:03:58.791 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 21:03:59.642 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 21:03:59.643 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 21:03:59.643 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 21:03:59.644 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 21:03:59.644 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 21:03:59.645 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 21:03:59.647 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 21:03:59.711 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 21:04:00.153 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 21:04:00.731 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 21:04:00.763 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.301 seconds (JVM running for 2.952)
+2020-06-17 21:04:01.885 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 21:05:09.270 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 4424 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 21:05:09.272 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 21:05:10.156 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 21:05:10.156 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 21:05:10.157 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 21:05:10.158 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 21:05:10.158 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 21:05:10.158 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 21:05:10.161 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 21:05:10.229 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 21:05:10.682 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 21:05:11.309 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 21:05:11.348 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.454 seconds (JVM running for 3.181)
+2020-06-17 21:05:12.144 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 21:05:51.458 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 13708 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 21:05:51.460 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 21:05:52.410 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 21:05:52.410 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 21:05:52.410 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 21:05:52.412 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 21:05:52.412 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 21:05:52.412 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 21:05:52.414 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 21:05:52.485 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 21:05:52.954 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 21:05:53.554 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 21:05:53.587 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.51 seconds (JVM running for 3.271)
+2020-06-17 21:05:54.624 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 21:06:39.419 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 6660 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 21:06:39.421 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 21:06:40.328 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 21:06:40.329 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 21:06:40.329 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 21:06:40.331 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 21:06:40.331 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 21:06:40.331 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 21:06:40.333 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 21:06:40.405 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 21:06:40.863 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 21:06:41.455 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 21:06:41.492 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.455 seconds (JVM running for 3.155)
+2020-06-17 21:06:42.093 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 23:41:28.478 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 14060 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 23:41:28.481 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 23:41:29.385 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 23:41:29.386 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 23:41:29.386 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 23:41:29.387 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 23:41:29.388 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 23:41:29.388 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 23:41:29.390 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 23:41:29.458 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 23:41:29.944 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 23:41:30.536 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 23:41:30.569 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 2.444 seconds (JVM running for 3.153)
+2020-06-17 23:41:33.088 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 23:41:33.116 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 108 ] - SQL语法解析结果：{ select:* ; from:costmap ; }from:costmap }
+2020-06-17 23:42:25.296 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 55 ] - Starting DemoApplication on DESKTOP-04J62CD with PID 8680 (C:\Users\MI\Desktop\IdeaProjects\demo\target\classes started by Dr.Tang in C:\Users\MI\Desktop\IdeaProjects\demo)
+2020-06-17 23:42:25.311 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 655 ] - The following profiles are active: dev
+2020-06-17 23:42:26.469 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Initializing ProtocolHandler ["http-nio-8088"]
+2020-06-17 23:42:26.473 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardService : 173 ] - Starting service [Tomcat]
+2020-06-17 23:42:26.474 [ main ] - [ INFO  ] [ org.apache.catalina.core.StandardEngine : 173 ] - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-17 23:42:26.475 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-06-17 23:42:26.475 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-06-17 23:42:26.475 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-06-17 23:42:26.501 [ main ] - [ INFO  ] [ org.apache.catalina.core.AprLifecycleListener : 173 ] - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-06-17 23:42:26.583 [ main ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring embedded WebApplicationContext
+2020-06-17 23:42:27.135 [ main ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 947 ] - {dataSource-1} inited
+2020-06-17 23:42:27.825 [ main ] - [ INFO  ] [ org.apache.coyote.http11.Http11NioProtocol : 173 ] - Starting ProtocolHandler ["http-nio-8088"]
+2020-06-17 23:42:27.873 [ main ] - [ INFO  ] [ com.example.demo.DemoApplication : 61 ] - Started DemoApplication in 3.066 seconds (JVM running for 4.017)
+2020-06-17 23:42:28.604 [ http-nio-8088-exec-1 ] - [ INFO  ] [ o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] : 173 ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-17 23:42:28.643 [ http-nio-8088-exec-1 ] - [ INFO  ] [ com.example.demo.dao.Impl.sqlGrammarImpl : 108 ] - SQL语法解析结果：{ select:* ; from:costmap ; }from:costmap }
+2020-06-17 23:54:57.665 [ SpringContextShutdownHook ] - [ INFO  ] [ com.alibaba.druid.pool.DruidDataSource : 1863 ] - {dataSource-1} closed

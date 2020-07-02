@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户登陆</title>
+    <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link href="../static/icon/favicon.ico" rel="icon"/>
+</head>
+
+<body>
+<div class="container">
+    <h1 class="row skew-title">
+        <span>用</span><span>户</span><span>登</span><span>陆</span>
+    </h1>
+</div>
+
+<div class="input-container">
+    <form action="#" onsubmit="return false;" method="post" id="userForm">
+        <div class="input-field">
+            <input type="text" id="account" name="account" required="">
+            <label>账号</label>
+            <span></span>
+        </div><br>
+        <div class="input-field">
+            <input type="text" id="password" name="password" required="">
+            <label>密码</label>
+            <span></span>
+        </div><br>
+        <input type="submit" id="login" value="确认" name="" class="btn">
+    </form>
+</div>
+</body>
+
+<script type="text/javascript">
+    function login() {
+        var account = document.getElementById('account');
+        var password = document.getElementById('password');
+        $.ajax({
+            type: "get",
+            url: "/user/login",
+            data: {
+                'account': account.value,
+                'password':password.value,
+            },
+            success: function (data) {
+                console.log(data);
+                if (data=="true") {
+                    location.href="Main.html";
+                } else {
+                    alert("账号密码输入错误!");
+                }
+            },
+            error: function () {
+                console.log("登录异常!");
+                alert("服务器异常!");
+                location.href="Error.html";
+            }
+        })
+    }
+    $("#login").click(function(){
+        login();
+    });
+</script>
+</html>

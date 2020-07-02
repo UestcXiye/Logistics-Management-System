@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>物流节点信息更新</title>
+  <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+
+<body>
+<div class="container">
+  <h1 class="row skew-title">  
+    <span>物</span><span>流</span><span>节</span><span>点</span><span>信</span><span>息</span><span>更</span><span>新</span>
+  </h1>
+</div>
+
+<div style="position:absolute;left: 50%;top: 40%">
+  <a href="ModifyNodeInformation.html" class="ambi-light-button">修改物流节点信息</a>
+</div>
+
+<div style="position:absolute;left: 50%;top: 50%">
+  <a href="DeleteNodeInformation.html" class="ambi-light-button">删除物流节点信息</a>
+</div>
+
+<div style="position:absolute;left: 50%;top: 60%">
+  <a href="Main.html" class="ambi-light-button">返回上一级</a>
+</div>
+
+<script type="text/javascript">
+  (function() {
+    $('.skew-title').children('span').hover((function() {
+      var $el, n;
+      $el = $(this);
+      n = $el.index() + 1;
+      $el.addClass('flat');
+      if (n % 2 === 0) {
+        return $el.prev().addClass('flat');
+      } else {
+        if (!$el.hasClass('last')) {
+          return $el.next().addClass('flat');
+        }
+      }
+    }), function() {
+      return $('.flat').removeClass('flat');
+    });
+
+  }).call(this);
+  </script>
+</body>
+</html>

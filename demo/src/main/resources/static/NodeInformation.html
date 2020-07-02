@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>物流节点信息</title>
+  <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+
+<body>
+<div class="container">
+  <h1 class="row skew-title">  
+    <span>物</span><span>流</span><span>节</span><span>点</span><span>信</span><span>息</span>
+  </h1>
+</div>
+
+<table id="box-table-a" width="1800">
+      <tr>
+          <th width="200" scope="col">城市名</th>
+          <th width="200" scope="col">成都</th>
+          <th width="200" scope="col">重庆</th>
+          <th width="200" scope="col">长沙</th>
+          <th width="200" scope="col">武汉</th>
+          <th width="200" scope="col">广州</th>
+          <th width="200" scope="col">杭州</th>
+          <th width="200" scope="col">南京</th>
+          <th width="200" scope="col">上海</th>
+      </tr>
+</table>
+
+<div style=position:absolute;left:50%;top:80%>
+    <a href=Main.html target=_self class=ambi-light-button>返回上一级</a>
+</div>
+</body>
+
+<script type="text/javascript">
+        $.ajax({
+            type: "get",
+            url: "/search/NodesInformation",
+            dataType:"json",
+            success: function (data) {
+                console.log(data);
+                var str="";
+                for(var i=0;i<data.length;i++){
+                    str="<tr><td>"+data[i].cityName+"</td><td>"+
+                        data[i].changsha+"</td><td>"+
+                        data[i].chengdu+"</td><td>"+
+                        data[i].chongqing+"</td><td>"+
+                        data[i].guangzhou+"</td><td>"+
+                        data[i].hangzhou+"</td><td>"+
+                        data[i].nanjing+"</td><td>"+
+                        data[i].shanghai+"</td><td>"+
+                        data[i].wuhan+"</td></tr>";
+                    $("#box-table-a").append(str);
+                }
+            },
+            error: function () {
+                console.log("物流节点信息异常");
+                alert("服务器异常");
+                location.href="Error.html";
+            }
+        })
+</script>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>物品信息查询</title>
+  <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link href="../static/icon/favicon.ico" rel="icon"/>
+</head>
+
+<body>
+<div class="container">
+  <h1 class="row skew-title">  
+  <span>物</span><span>品</span><span>信</span><span>息</span><span>查</span><span>询</span>
+  </h1>
+</div>
+
+<div class="input-container" id="content">
+    <form action="#" onsubmit="return false;" method="post" id="userForm">
+      <div class="input-field">
+          <input type="text" name="OrderNumber" id="OrderNumber" required="">
+          <label>请输入订单号</label>
+          <span></span>
+      </div>
+      <input type="submit" value="确认" id="login" name="" class="btn">
+  </form>
+
+    <div style=position:absolute;left:50%;top:250%>
+        <a href=InformationQuery.html target=_self class=ambi-light-button>返回上一级</a>
+    </div>
+    <div style=position:absolute;left:50%;top:350%>
+        <a href=Main.html target=_self class=ambi-light-button>返回主界面</a>
+    </div>
+</div>
+</body>
+
+<script type="text/javascript">
+    function GoodQuery() {
+        var orderNumber = document.getElementById('OrderNumber');
+        if (orderNumber.value == "") {
+            return;
+        }
+        if(orderNumber.value.length!=6){
+            alert("订单号输入位数错误");
+            return;
+        }
+        $.ajax({
+            type: "get",
+            url: "/search/GoodQuery",
+            data: {
+                'OrderNumber': orderNumber.value
+            },
+            dataType:"json",
+            success: function (data) {
+                var orderNumber=data.orderNumber;
+                console.log(data);
+                if (orderNumber!=null) {
+                    $("#content").empty();
+                    $("#content").html(
+                        "<div style=\"position:absolute; left:2%;top:-200px\" align='center'>" +
+                        "<table id=\"box-table-b\" summary=\"Logistics Node Information\" align='center'>" +
+                        "  <thead>" +
+                        "      <tr>" +
+                        "          <th scope=\"col\">订单号</th>" +
+                        "          <th scope=\"col\">到站时间</th>" +
+                        "          <th scope=\"col\">目的地</th>" +
+                        "          <th scope=\"col\">VIP</th>" +
+                        "          <th scope=\"col\">已送出</th>" +
+                        "      </tr>" +
+                        "  </thead>"+
+                        "  <tbody>" +
+                        "      <tr>" +
+                        "          <td scope=\"col\">"+data.orderNumber+"</td>" +
+                        "          <td scope=\"col\">"+data.arriveTime+"</td>" +
+                        "          <td scope=\"col\">"+data.destination+"</td>" +
+                        "          <td scope=\"col\">"+data.isVip+"</td>" +
+                        "          <td scope=\"col\">"+data.isSend+"</td>" +
+                        "      </tr>"+
+                        "</tbody>"+
+                        "</table>"+
+                        "</div>"+
+                        "<div style=\"position:absolute;left: 50%;top:50%\">" +
+                        "  <a href=\"ItemInformationQuery.html\" target=\"_self\" class=\"ambi-light-button\">返回上一级</a>" +
+                        "</div>"+
+                        "<div style=\"position:absolute;left: 50%;top:200%\">\n" +
+                        "  <a href=\"Main.html\" target=\"_self\" class=\"ambi-light-button\">返回主界面</a>\n" +
+                        "</div>"
+                    )
+                } else {
+                    alert("未找到此订单!");
+                }
+            },
+            error: function () {
+                console.log("物流信息查找异常");
+                alert("服务器异常");
+                location.href="Error.html";
+            }
+        })
+    }
+    $("#login").click(function(){
+        GoodQuery();
+    });
+</script>
+</html>

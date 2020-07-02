@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>删除物品信息</title>
+  <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+
+<body>
+<div class="container">
+  <h1 class="row skew-title">  
+  <span>删</span><span>除</span><span>物</span><span>品</span><span>信</span><span>息</span>
+  </h1>
+</div>
+
+<div class="input-container">
+  <form action="#" onsubmit="return false;" method="post" id="userForm">
+    <div class="input-field">
+        <input type="text" id="OrderNumber" name="" required="">
+        <label>请输入订单号</label>
+        <span></span>
+    </div>
+      <input type="submit" value="删除" id="delete" name="" class="btn">
+  </form>
+</div>
+
+<div style="position:absolute;left: 50%;top: 75%">
+  <a href="ItemInformationUpdate.html" target="_self" class="ambi-light-button">上一级</a>
+</div>
+
+<div style="position:absolute;left: 50%;top: 85%">
+  <a href="Main.html" target="_self" class="ambi-light-button">主界面</a>
+</div>
+
+</body>
+
+<script type="text/javascript">
+  function DeleteInfo() {
+    var OrderNumber = document.getElementById('OrderNumber');
+    if(OrderNumber.value.length!=6){
+      if(OrderNumber.value.length==0){ return; }
+      alert("订单号输入位数错误");
+      return;
+    }
+    $.ajax({
+      type: "get",
+      url: "/update/DeleteInfo",
+      data: {
+        'OrderNumber': OrderNumber.value
+      },
+      dataType:"json",
+      success: function (data) {
+        console.log(data);
+        if (data!="") {
+          alert("物品信息删除成功!");
+        } else {
+          alert("不存在此物品信息或数据库存在读或写操作!");
+        }
+      },
+      error: function () {
+        console.log("物品信息删除异常!");
+        alert("服务器异常!");
+        location.href="Error.html";
+      }
+    })
+  }
+  $("#delete").click(function(){
+    DeleteInfo();
+  });
+</script>
+</html>

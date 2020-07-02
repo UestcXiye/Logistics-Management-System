@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>物流节点信息查询</title>
+  <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+
+<body>
+<div class="container">
+  <h1 class="row skew-title">  
+  <span>物</span><span>流</span><span>节</span><span>点</span><span>信</span><span>息</span><span>查</span><span>询</span>
+  </h1>
+</div>
+
+<div id="content" class="input-container">
+    <form action="#" onsubmit="return false;" method="post" id="userForm">
+      <div class="input-field">
+          <input type="text" id="CityName" name="CityName" required="">
+          <label>请输入城市名</label>
+          <span></span>
+      </div>
+      <input type="submit" value="确认" id="click" name="" class="btn">
+  </form>
+    <div style=position:absolute;left:50%;top:250%>
+        <a href=InformationQuery.html target=_self class=ambi-light-button>返回上一级</a>
+    </div>
+    <div style=position:absolute;left:50%;top:350%>
+    <a href=Main.html target=_self class=ambi-light-button>返回主界面</a>
+    </div>
+
+</div>
+</body>
+
+<script type="text/javascript">
+    function NodeQuery() {
+        var CityName = document.getElementById('CityName');
+        if (CityName.value == "") {
+            return;
+        }
+        $.ajax({
+            type: "get",
+            url: "/search/NodeQuery",
+            data: {
+                'CityName': CityName.value
+            },
+            dataType:"json",
+            success: function (data) {
+                var CityName=data.cityName;
+                console.log(data);
+                if (CityName!=null) {
+                    $("#content").empty();
+                    $("#content").html(
+                        "<div style=\"position:absolute; left:2%;top:-200px\" align='center'>" +
+                        "<table id=\"box-table-b\" width='1800' align='center'>" +
+                        "  <thead>" +
+                        "      <tr>" +
+                        "          <th width='200' scope=\"col\">长沙</th>" +
+                        "          <th width='200' scope=\"col\">成都</th>" +
+                        "          <th width='200' scope=\"col\">重庆</th>" +
+                        "          <th width='200' scope=\"col\">广州</th>" +
+                        "          <th width='200' scope=\"col\">杭州</th>" +
+                        "          <th width='200' scope=\"col\">南京</th>" +
+                        "          <th width='200' scope=\"col\">上海</th>" +
+                        "          <th width='200' scope=\"col\">武汉</th>" +
+                        "      </tr>" +
+                        "  </thead>"+
+                        "  <tbody>" +
+                        "      <tr>" +
+                        "          <td width='200' scope=\"col\">"+data.changsha+"</td>" +
+                        "          <td width='200' scope=\"col\">"+data.chengdu+"</td>" +
+                        "          <td width='200' scope=\"col\">"+data.chongqing+"</td>" +
+                        "          <td width='200' scope=\"col\">"+data.guangzhou+"</td>" +
+                        "          <td width='200' scope=\"col\">"+data.hangzhou+"</td>" +
+                        "          <td width='200' scope=\"col\">"+data.nanjing+"</td>" +
+                        "          <td width='200' scope=\"col\">"+data.shanghai+"</td>" +
+                        "          <td width='200' scope=\"col\">"+data.wuhan+"</td>" +
+                        "      </tr>"+
+                        "</tbody>"+
+                        "</table>"+
+                        "</div>"+
+                        "<div style=\"position:absolute;left: 28%\">" +
+                        "  <a href=\"Main.html\" target=\"_self\" class=\"ambi-light-button\">返回主菜单</a>" +
+                        "</div>"+
+                        "<div style=\"position:absolute;left: 72%\">\n" +
+                        "  <a href=\"NodeInformationQuery.html\" target=\"_self\" class=\"ambi-light-button\">返回上一级</a>\n" +
+                        "</div>"
+                    )
+                } else {
+                    alert("未找到此物流节点或数据库存在读或写操作!");
+                }
+            },
+            error: function () {
+                console.log("物流节点信息查找异常");
+                alert("服务器异常");
+                location.href="Error.html";
+            }
+        })
+    }
+    $("#click").click(function(){
+        NodeQuery();
+    });
+</script>
+</html>

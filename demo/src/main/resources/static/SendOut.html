@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>发货</title>
+  <script type="text/javascript" src="../static/js/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
+
+<body>
+<div class="container">
+  <h1 class="row skew-title">
+    <span>发</span><span>货</span>
+  </h1>
+</div>
+
+<div class="input-container">
+  <form action="#" onsubmit="return false;" method="post" id="userForm">
+    <div class="input-field">
+      <input type="text" id="OrderNumber" name="" required="">
+      <label>请输入订单号</label>
+      <span></span>
+    </div>
+    <input type="submit" value="发货" id="send" name="" class="btn">
+  </form>
+</div>
+
+<div style="position:absolute;left: 50%;top: 75%">
+  <a href="ItemInformation.html" target="_self" class="ambi-light-button">上一级</a>
+</div>
+
+<div style="position:absolute;left: 50%;top: 85%">
+  <a href="Main.html" target="_self" class="ambi-light-button">主界面</a>
+</div>
+
+</body>
+
+<script type="text/javascript">
+  function SendOut() {
+    var OrderNumber = document.getElementById('OrderNumber');
+    if(OrderNumber.value.length!=6){
+      if(OrderNumber.value.length==0){ return; }
+      alert("订单号输入位数错误");
+      return;
+    }
+    $.ajax({
+      type: "get",
+      url: "/update/SendOut",
+      data: {
+        'OrderNumber': OrderNumber.value
+      },
+      success: function (data) {
+        console.log(data);
+        if (data=="true") {
+          alert("发货成功!");
+        } else {
+          alert("不存在此物品或者物品已发出!");
+        }
+      },
+      error: function () {
+        console.log("发货异常!");
+        alert("服务器异常!");
+        location.href="Error.html";
+      }
+    })
+  }
+  $("#send").click(function(){
+    SendOut();
+  });
+</script>
+</html>
